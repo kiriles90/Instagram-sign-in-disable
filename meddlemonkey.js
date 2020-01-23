@@ -2,11 +2,12 @@
 // @name         Instagram sign-in disable
 // @namespace    http://tampermonkey.net/
 // @version      1.1
-// @date         2020-01-22
+// @date         2020-01-23
 // @author       github.com/kiriles90
 // @updateURL    https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-disable/master/meddlemonkey.js
 // @downloadURL  https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-disable/master/meddlemonkey.js
 // @run-at       document-idle
+// @match        http://www.instagram.com/*
 // @match        https://www.instagram.com/*
 // @grant        none
 // ==/UserScript==

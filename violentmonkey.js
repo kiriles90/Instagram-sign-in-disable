@@ -4,8 +4,8 @@
 // @version      1.1
 // @date         2020-01-23
 // @author       github.com/kiriles90
-// @updateURL    https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-disable/master/meddlemonkey.js
-// @downloadURL  https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-disable/master/meddlemonkey.js
+// @updateURL    https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-disable/master/violentmonkey.js
+// @downloadURL  https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-disable/master/violentmonkey.js
 // @run-at       document-idle
 // @match        http://www.instagram.com/*
 // @match        https://www.instagram.com/*

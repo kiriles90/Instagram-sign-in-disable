@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Instagram sign-in disable
 // @namespace    http://tampermonkey.net/
-// @version      1.1
-// @date         2020-01-23
+// @version      1.2
+// @date         2020-05-24
 // @author       github.com/kiriles90
 // @updateURL    https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-disable/master/violentmonkey.js
 // @downloadURL  https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-disable/master/violentmonkey.js
@@ -16,8 +16,8 @@
     let observer = new MutationObserver((mutations) => {
         mutations.forEach((m) => {
             m.target.style.overflow = "scroll";
-            if (document.querySelector("body > div.RnEpo.Yx5HN")) {
-                document.querySelector("body > div.RnEpo.Yx5HN").remove();
+            if (document.querySelector("body > div.RnEpo._Yhr4")) {
+                document.querySelector("body > div.RnEpo._Yhr4").remove();
             }
         });
     });
